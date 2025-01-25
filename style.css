@@ -1,3 +1,80 @@
+body {
+    background-color:rgb(243, 233, 247);
+}
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+   padding: 30px;
+   background-color: rgb(239, 225, 245);
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+   border-radius: 10px;
+}
+
 h1 {
     text-align: center;
+    color: rgb(186, 164, 196);
+    font-family: sans-serif;
+    font-size: 40px;
 }
+
+h2 {
+    font-family: monospace;
+    color: rgb(186, 164, 196);
+    font-size: 28px;
+    margin: 0 0 10px;
+}
+
+.city {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px dashed rgb(157, 146, 160);
+}
+
+.city:last-child {
+    border: none;
+}
+
+select {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(243, 233, 247);
+    color: rgb(121, 97, 119);
+    border-color: rgb(243, 233, 247);
+}
+
+.date {
+    color: rgb(123, 112, 126);
+    font-family: monospace;
+    opacity: 0.7;
+}
+
+.time {
+    font-family: monospace;
+    font-size: 45px;
+    color: rgb(209, 189, 218);
+}
+
+.time small {
+    font-size: 15px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    font-size: 13px;
+    color: rgb(186, 164, 196);
+}
+
+  a:visited {
+    color: rgb(164, 161, 165);
+    background-color: transparent;
+    text-decoration: underline;
+  }
