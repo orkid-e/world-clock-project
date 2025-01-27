@@ -66,6 +66,12 @@ select {
     vertical-align: middle;
 }
 
+.main-page {
+    font-family: monospace;
+    font-size: 13-px;
+    color: rgb(209, 189, 218);  
+    text-align: center;
+}
 footer {
     text-align: center;
     font-family: monospace;
